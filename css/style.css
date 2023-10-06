@@ -29,7 +29,7 @@ h1{
 
 #nasa_potd_figure img{
     display: center;
-    max-height: 800px;
+    max-height: 750px;
     width: auto;
     height: auto;
 }
@@ -44,6 +44,20 @@ width: 100%
 #explanation{
     text-align: left;
 
+}
+
+#hdLink, #returnCurrentPotd{
+    display: block;
+    border-radius: 18%;
+    padding: .5rem;
+    text-decoration: none;
+    background-color: black;
+    font-size: 2rem;
+    color: azure;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 5px grey;
 }
 
 h3{
@@ -64,6 +78,10 @@ table img{
  height: 100%;   
 }
 
-#currentPotd{
-
+ol{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
 }

@@ -18,6 +18,7 @@ fetch(apiLink)
     var index = 9;
     data.forEach(elem => {
       const pic = document.getElementById('pic' + index);
+      const list = document.getElementById('list' + index);
       console.log(elem.date);
       if(elem.media_type == "image")
       {
@@ -28,6 +29,7 @@ fetch(apiLink)
         pic.src = "https://apod.nasa.gov/apod/image/2310/MoValleyEclipse1024.jpg";
       }
       pic.alt = elem.date;
+      list.innerHTML = elem.title;
       index--;
   })
   })
