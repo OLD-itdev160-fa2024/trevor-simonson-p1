@@ -1,0 +1,69 @@
+html{
+    padding: 0rem 5rem;
+}
+
+body {
+    font-family: monospace, sans-serif, Courier;
+
+}
+
+h1{
+    font-family: Geostar;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#nasa_potd_figure{
+
+    max-width: 50%;
+    border: 2px solid black;
+    border-radius: 8%;
+    padding: 1rem 4rem 2rem 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(33, 44, 54, 0.83);
+    background-color: rgba(150, 153, 165, 0.247);
+    
+}
+
+#nasa_potd_figure img{
+    display: center;
+    max-height: 800px;
+    width: auto;
+    height: auto;
+}
+#title{
+    font-size: 2.5rem;
+}
+
+#potd{
+width: 100%
+}
+
+#explanation{
+    text-align: left;
+
+}
+
+h3{
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: Geostar;
+}
+
+table{
+    background-color: black;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table img{
+ width: 100%;
+ height: 100%;   
+}
+
+#currentPotd{
+
+}

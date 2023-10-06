@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NASA APOD</title>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Geostar">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,7 +13,68 @@
         <h2 id="title">filler</h2>
         <img id="potd" src="" alt="Nasa POTD" >
         <p id="explanation">filler</p>
+        <a id="hdLink" href="">High Definition Picture</a>
+        <br>
+        <a id="returnCurrentPotd" href="javascript:currentPotd()">Back to Today's Picture</a>
     </div>
+
+    <h3>Past Pictures of the Day</h3>
+
+    <!--Probably not an appropriate use for a table-->
+    <table border="3" cellpadding="3">
+        <tr>
+            <th>
+                <a href="#top">
+                    <img onclick="javascript:oldPotd1()" src="" alt="" id="pic1">
+                </a>
+            </th>
+            <th>
+                <a href="#top">
+                    <img onclick="javascript:oldPotd2()" src="" alt="" id="pic2">
+                </a>
+            </th>
+            <th>
+                <a href="#top">
+                    <img onclick="javascript:oldPotd3()" src="" alt="" id="pic3">
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <th >
+                <a href="#top">
+                    <img onclick="javascript:oldPotd4()" src="" alt="" id="pic4">
+                </a>
+            </th>
+            <th>
+                <a href="#top">
+                    <img onclick="javascript:oldPotd5()" src="" alt="" id="pic5">
+                </a>
+            </th>
+            <th>
+                <a href="#top">
+                    <img onclick="javascript:oldPotd6()" src="" alt="" id="pic6">
+                </a>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <a href="#top">
+                    <img onclick="javascript:oldPotd7()" src="" alt="" id="pic7">
+                </a>
+            </th>
+            <th>
+                <a href="#top">
+                    <img onclick="javascript:oldPotd8()" src="" alt="" id="pic8">
+                </a>
+            </th>
+            <th>
+                <a href="#top">
+                    <img onclick="javascript:oldPotd9()" src="" alt="" id="pic9">
+                </a>
+            </th>
+        </tr>
+    </table>
+    
     <script></script>
 </body>
 <script src="js/scripts.js"></script>
