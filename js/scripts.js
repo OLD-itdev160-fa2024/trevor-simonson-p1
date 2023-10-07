@@ -46,7 +46,9 @@ console.log(newDate.toISOString().substring(0,10));
 }
 
 // Loads previous potd when picture is clicked
-function loadOldPotd(date){
+function loadOldPotd(days){
+  var date = dateFrom(days)
+
   const returnCurrentPotd = document.getElementById('returnCurrentPotd');
   returnCurrentPotd.style.display = "block";
 
@@ -75,6 +77,10 @@ function loadOldPotd(date){
       })
     .catch(error => console.log(error));
 }
+
+
+
+
 
 
 function currentPotd(){
