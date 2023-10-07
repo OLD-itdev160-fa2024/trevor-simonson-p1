@@ -1,9 +1,10 @@
 currentPotd();
 
-dateFrom(-2);
+
 
 
 // Past POTD Population
+
 var apiLink = 'https://api.nasa.gov/planetary/apod?api_key=16ZWg9vNoKBD0Ims63QJ3mftRzhVlu7Hzxtl7bee' 
   + "&start_date=" + dateFrom(-10) 
   + "&end_date=" + dateFrom(-2)
@@ -36,7 +37,7 @@ fetch(apiLink)
   .catch(error => console.log(error));
 
 
-// Get past dates for api link
+// Get past dates formatted for api link
 function dateFrom(days){
  var date = new Date();
 
@@ -78,11 +79,7 @@ function loadOldPotd(days){
     .catch(error => console.log(error));
 }
 
-
-
-
-
-
+// Loads Current POTD
 function currentPotd(){
   const returnCurrentPotd = document.getElementById('returnCurrentPotd');
   returnCurrentPotd.style.display = 'none';
