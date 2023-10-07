@@ -77,43 +77,6 @@ function loadOldPotd(date){
 }
 
 
-// There has got to be a better way to do this
-function oldPotd1(){
-  loadOldPotd(dateFrom(-2));
-}
-
-function oldPotd2(){
-  loadOldPotd(dateFrom(-3));
-}
-
-function oldPotd3(){
-  loadOldPotd(dateFrom(-4));
-}
-
-function oldPotd4(){
-  loadOldPotd(dateFrom(-5));
-}
-
-function oldPotd5(){
-  loadOldPotd(dateFrom(-6));
-}
-
-function oldPotd6(){
-  loadOldPotd(dateFrom(-7));
-}
-
-function oldPotd7(){
-  loadOldPotd(dateFrom(-8));
-}
-
-function oldPotd8(){
-  loadOldPotd(dateFrom(-9));
-}
-
-function oldPotd9(){
-  loadOldPotd(dateFrom(-10));
-}
-
 function currentPotd(){
   const returnCurrentPotd = document.getElementById('returnCurrentPotd');
   returnCurrentPotd.style.display = 'none';
